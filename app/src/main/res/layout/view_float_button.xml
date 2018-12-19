@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView android:layout_width="80dp"
+              android:text="1"
+              android:id="@+id/tv_float_button_task_number"
+              android:textSize="40sp"
+              android:layout_centerHorizontal="true"
+              android:gravity="center"
+              android:textColor="#ffffff"
+              android:background="@drawable/game_level_title"
+              android:layout_height="80dp"/>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_centerVertical="true"
+                  android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:gravity="bottom"
+                        android:clickable="true"
+                        android:focusableInTouchMode="false"
+                        android:focusable="true"
+                        android:id="@+id/rl_float_button_remove"
+                        android:background="@drawable/game_buy2_selector"
+                        android:layout_height="wrap_content">
+            <TextView android:layout_width="70dp"
+                      android:text="@integer/remove_a_wrong_answer"
+                      android:paddingLeft="5dp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical|right"
+                      android:layout_marginBottom="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:textColor="#ffffff"
+                      android:drawableLeft="@drawable/game_coin_mini"
+                      android:layout_height="25dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:gravity="bottom"
+                        android:clickable="true"
+                        android:focusableInTouchMode="false"
+                        android:focusable="true"
+                        android:textStyle="bold"
+                        android:id="@+id/rl_float_button_hint"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/game_buy1_selector"
+                        android:layout_height="wrap_content">
+            <TextView android:layout_width="70dp"
+                      android:text="@integer/get_a_tip"
+                      android:paddingLeft="5dp"
+                      android:textStyle="bold"
+                      android:gravity="center_vertical|right"
+                      android:layout_marginBottom="12dp"
+                      android:layout_marginLeft="10dp"
+                      android:textColor="#ffffff"
+                      android:drawableLeft="@drawable/game_coin_mini"
+                      android:layout_height="25dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageButton android:layout_width="wrap_content"
+                 android:id="@+id/ibtn_float_button_share"
+                 android:layout_centerVertical="true"
+                 android:layout_alignParentRight="true"
+                 android:background="@drawable/game_share_selector"
+                 android:layout_height="wrap_content"/>
+
+</RelativeLayout>

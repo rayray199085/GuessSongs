@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:visibility="invisible"
+              android:id="@+id/ll_win_page_view"
+              android:background="@drawable/index_background"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center_vertical"
+                  android:background="@drawable/index_bar"
+                  android:layout_height="wrap_content">
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:id="@+id/ibtn_win_page_return"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/all_back_selector"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:gravity="center"
+                  android:background="@drawable/allpass_back0"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/allpass_text0"
+                   android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginBottom="5dp"
+                  android:gravity="center"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/game_wx_text"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:background="@drawable/game_coin_icon"
+                   android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:gravity="center"
+                  android:background="@drawable/allpass_back1"
+                  android:layout_height="wrap_content">
+        <ImageButton android:layout_width="200dp"
+                     android:id="@+id/ibtn_winpage_wechat"
+                     android:background="@drawable/about_wechat_selector"
+                     android:layout_height="200dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginLeft="10dp"
+                  android:gravity="center"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:background="@drawable/about_rank_text"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:background="@drawable/game_coin_icon"
+                   android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <RelativeLayout android:layout_width="match_parent"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:background="@drawable/allpass_back1"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_centerInParent="true"
+                     android:background="@drawable/allpass_text2"
+                     android:layout_height="wrap_content"/>
+        <ImageButton android:layout_width="wrap_content"
+                     android:background="@drawable/allpass_rank_selector"
+                     android:id="@+id/ibtn_win_page_support"
+                     android:layout_alignParentBottom="true"
+                     android:layout_marginRight="50dp"
+                     android:layout_marginBottom="30dp"
+                     android:layout_alignParentRight="true"
+                     android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

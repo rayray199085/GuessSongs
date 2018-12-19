@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.MainActivity">
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center_horizontal"
+                  android:background="@drawable/index_background"
+                  android:layout_height="match_parent">
+        <include layout="@layout/view_top_bar"/>
+        <include layout="@layout/view_disc"/>
+        <include layout="@layout/view_word_selection"/>
+    </LinearLayout>
+    <include layout="@layout/view_float_button"/>
+    <include layout="@layout/view_pass_task"/>
+    <include layout="@layout/view_win_page"/>
+</FrameLayout>

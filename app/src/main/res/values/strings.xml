@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GuessSongs</string>
+    <string name="song_name_title">Song Name</string>
+</resources>
